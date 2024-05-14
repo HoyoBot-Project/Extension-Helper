@@ -17,11 +17,12 @@ const Popup = () => {
           Hoyo Bot
         </Typography.Title>
       </Row>
-      {!isHasCookie ? (
+      {isHasCookie ? (
         <div>
           <Typography.Text type="success">You have logged in to the game</Typography.Text>
           <Button
             type="primary"
+            style={{ marginTop: 10 }}
             onClick={() => {
               chrome.tabs.create({
                 url: `chrome-extension://${chrome.runtime.id}/options.html`,
@@ -36,6 +37,7 @@ const Popup = () => {
           <Typography.Text type="danger">Please login to the game first</Typography.Text>
           <Button
             type="primary"
+            style={{ marginTop: 10 }}
             onClick={() => {
               chrome.tabs.create({
                 url: 'https://www.hoyolab.com/',
