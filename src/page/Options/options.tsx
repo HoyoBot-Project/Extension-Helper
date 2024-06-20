@@ -19,6 +19,7 @@ const Options = () => {
       const cookieFind = cookies.find((cookie) => cookie.name === value);
       upload.cookies[key] = cookieFind?.value || '';
     });
+    console.log(upload);
 
     notification.success({
       message: 'Success',
