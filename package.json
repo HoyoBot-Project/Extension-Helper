@@ -17,8 +17,9 @@
     "url": "https://github.com/HoyoBot-Project/Extension-Helper.git"
   },
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "antd": "^5.18.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/chrome": "0.0.158",

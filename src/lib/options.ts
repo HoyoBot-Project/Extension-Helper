@@ -1,11 +1,8 @@
-export const BACKEND_URL = 'http://localhost:1337';
-
 export const cookiesGet = {
   ltoken: 'ltoken',
   ltokenV2: 'ltoken_v2',
   ltuid: 'ltuid',
   ltuidV2: 'ltuid_v2',
-  cookieToken: 'cookie_token',
   cookieTokenV2: 'cookie_token_v2',
   accountId: 'account_id',
   accountIdV2: 'account_id_v2',
