@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-typescript-starter",
+  "name": "kuma-extension",
   "version": "1.0.0",
-  "description": "chrome-extension-typescript-starter",
+  "description": "Kuma Extension",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --config webpack/webpack.dev.js --watch",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chibat/chrome-extension-typescript-starter.git"
+    "url": "https://github.com/HoyoBot-Project/Extension-Helper.git"
   },
   "dependencies": {
     "react": "^17.0.1",
@@ -22,9 +22,9 @@
   },
   "devDependencies": {
     "@types/chrome": "0.0.158",
-    "@types/jest": "^27.0.2",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "@types/jest": "^29.5.0",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.29",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "copy-webpack-plugin": "^9.0.1",
@@ -41,12 +41,12 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "glob": "^7.1.6",
-    "jest": "^27.2.1",
+    "jest": "^29.5.0",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2 ",
-    "ts-jest": "^27.0.5",
+    "ts-jest": "^29.1.0",
     "ts-loader": "^8.0.0",
-    "typescript": "^5.0.2",
+    "typescript": "^5.2.2",
     "webpack": "^5.76.0",
     "webpack-cli": "^4.0.0",
     "webpack-merge": "^5.0.0"
