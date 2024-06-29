@@ -29,6 +29,7 @@ module.exports = {
     'comma-dangle': 'off',
     'no-param-reassign': ['error', { props: false }],
     '@typescript-eslint/comma-dangle': 0,
+    '@typescript-eslint/no-explicit-any': 'off',
     indent: 'off',
     '@typescript-eslint/indent': 0,
     'simple-import-sort/imports': 'error',
