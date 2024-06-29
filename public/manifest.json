@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
 
-  "name": "Hoyo Bot",
-  "description": "Extension for help you to manage your Hoyoverse account",
+  "name": "Kuma Extension",
+  "description": "Extension for help you to sync your cookies to Kuma Simulators",
 
   "version": "0.1",
 
@@ -33,7 +33,11 @@
   ],
 
   "externally_connectable": {
-    "matches": ["http://localhost:3000/*", "http://127.0.0.1:5173/*"]
+    "matches": [
+      "http://localhost:3000/*",
+      "http://127.0.0.1:5173/*",
+      "https://hoyobot-project.github.io/HSR-Simulator/*"
+    ]
   },
 
   "background": {
