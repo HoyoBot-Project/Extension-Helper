@@ -36,7 +36,7 @@
     "matches": [
       "http://localhost:3000/*",
       "http://127.0.0.1:5173/*",
-      "https://hoyobot-project.github.io/HSR-Simulator/*"
+      "https://monsieur-kuma.github.io/kuma-simulator/*"
     ]
   },
 

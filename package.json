@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HoyoBot-Project/Extension-Helper.git"
+    "url": "https://github.com/monsieur-kuma/kuma-extension.git"
   },
   "dependencies": {
     "antd": "^5.18.3",
